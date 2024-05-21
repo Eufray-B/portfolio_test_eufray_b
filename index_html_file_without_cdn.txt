@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Balises meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ceci est un CV de type responsive">
+    <meta name="author" content="BEMBA Eufray">
+
+
+    <!-- Styles, scripts et links -->
+    <link href="./images/icons/open_source-icon.ico" rel="icon" type="image/x-icon">
+    <link href="./styles/index_style.css" rel="stylesheet">
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="./scripts/index_script.js" defer></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <title>Développeur Web débutant</title>
+</head>
+
+<body class="container_body container-fluid ">
+
+    <div class="row row_body">
+        <!-- Colonne vide à gauche -->
+        <div class="col-1 colonne_vide_g "></div>
+        <!-- Colonne milieu pour contenu de la page -->
+        <div class="col-10 colonne_centrale">
+
+            <header class="mon_header">
+                <!-- Début Navbar -->
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid d-flex hstack gap-3">
+                        <a class="navbar-brand p-2 " href="#haut_de_page" title="Vers le début du cv"><i
+                                class="icone_haut_de_page bi bi-arrow-up-circle-fill h1"></i></a>
+                        <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse p-2 ms-auto" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#a-propos">A propos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#mes_competences">Compétences</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#xp_pro">Expériences</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#formations">Formations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#projet_en_cours">Projet en cours</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#hobbies">Centres d'intérêt</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#mon_footer">Autre</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- Fin Navbar-->
+                <div class="container-lg container_intro d-flex" id="haut_de_page">
+                    <img class="intro_background" src="./images/foret_guadeloupe.jpg">
+                    <div class=" id_photo_container">
+                        <img src="./images/photo_id.jpg" alt="ma photo"></img>
+                    </div>
+                    <div class="myname_container ">
+                        <h1 class="typping_effect_h1"></h1>
+                    </div>
+                    <div class="myjob_container  ">
+                        <h2 class="typping_effect_h2"></h2>
+
+                    </div>
+
+                </div>
+            </header>
+
+            <!-- Debut du main -->
+
+            <main class="mon_main">
+                <!-- BLOC1: a-propos + coordonnées -->
+                <div class="container-fluid container_BLOC1 d-flex flex-wrap flex-md-wrap">
+
+                    <div class="col-12 col-lg-5 col1_BLOC1">
+                        <div class="row mb-2">
+                            <h3 id="a-propos">A propos</h3>
+                        </div>
+                        <div class="row">
+                            <p class="texte_intro_cv">Anciennement demandeur d'emploi de longue durée, j'ai saisi
+                                l'opportunité de participer à un parcours de réinsertion auprès de l’ACI INSERSOL à
+                                Hellemmes. Ce parcours m'a permis non seulement de retrouver un travail stable, mais
+                                aussi de restaurer ma confiance en moi et mes capacités personnelles, suffisamment pour
+                                me motiver à entreprendre une reconversion professionnelle dans le domaine informatique.
+                                Mon intérêt se situe plutôt dans la partie développement applicatif, web-web mobile et
+                                design.<br><br>
+                                Bien que mon expérience en programmation reste limitée, même 1 an après j’ai toujours un
+                                réel intérêt pour ce domaine. Je suis motivé par l’acquisition de nouvelles compétences,
+                                l'apprentissage continu et la poursuite d'objectifs professionnels concrets. Dans cette
+                                optique, j'envisage de poursuivre mes études avec une licence en informatique afin de
+                                consolider mes compétences en développement, et d'affiner mes choix de carrière :
+                                j’envisage entre autres professions développeur informatique, développeur web,
+                                intégrateur web et testeur. Je ne serais pas contre l’idée de poursuivre une formation
+                                en master.
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-2 col2_BLOC1 d-none d-md-block"></div>
+                    <div class="col-12 col-lg-5 col3_BLOC1">
+                        <div class="row mb-2">
+                            <h3 id="coordonnees">Coordonnées</h3>
+                        </div>
+                        <div class="row d-flex">
+                            <div class="col-12 col-lg-8 d-flex">
+                                <div class="col-2 col-lg-2">
+                                    <div class="row"><i class="bi bi-envelope"></i></div>
+                                    <div class="row"><i class="bi bi-discord"></i></div>
+                                    <div class="row"><i class="bi bi-telephone"></i></div>
+                                    <div class="row"><i class="bi bi-house"></i></div>
+                                </div>
+                                <div class="col-3 col-lg-4">
+                                    <div class="row">Email </div>
+                                    <div class="row">Discord</div>
+                                    <div class="row">Phone</div>
+                                    <div class="row">Location</div>
+                                </div>
+
+                                <div class="col-7 col-lg-6">
+                                    <div class="row">eufray.bemba@outlook.fr</div>
+                                    <div class="row">eufray.b</div>
+                                    <div class="row">06.61.41.46.33</div>
+                                    <div class="row d-flex">59000 Lille</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- BLOC 2: compétences + savoirs faire -->
+
+                <div class="container-fluid container_BLOC2 d-flex flex-wrap flex-md-wrap">
+                    <div class="row d-flex container-fluid mb-2">
+                        <h3 id="mes_competences">Mes compétences</h3>
+                    </div>
+                    <div class="row d-flex container-fluid ">
+                        <div class="col-lg-5 flex-sm-row flex-column ">
+                            <div class="row titre_icones_skills">
+                                <div class="col-2 titre_skill">HTML</div>
+                                <div class="col-2 titre_skill">CSS</div>
+                                <div class="col-2 titre_skill">JS</div>
+                                <div class="col-2 titre_skill">PHP</div>
+                                <div class="col-2 titre_skill">VScode</div>
+                                <div class="col-2 titre_skill">Figma</div>
+                            </div>
+                            <div class="row icones_skills d-flex">
+                                <div class="col-2 icone_skill"><img src="./images/icons/icons8-html.svg" alt="icone_html">
+                                </div>
+                                <div class="col-2 icone_skill"><img src="./images/icons/icons8-css.svg" alt="icone_css">
+                                </div>
+                                <div class="col-2 icone_skill"><img src="./images/icons/icons8-javascript.svg"
+                                        alt="icone_js"></div>
+                                <div class="col-2 icone_skill"><img src="./images/icons/icons8-serveur-php-50.png"
+                                        alt="icone_php"></div>
+                                <div class="col-2 icone_skill"><img src="./images/icons/icons8-visual-studio.svg"
+                                        alt="icone_vscode"></div>
+                                <div class="col-2 icone_skill"><img src="./images/icons/icons8-logo-figma.svg"
+                                        alt="icone_figma"></div>
+                            </div>
+                            <div class="row row_icones_espacement"></div>
+                            <div class="row titre_icones_skills">
+                                <div class="col-2 titre_skill">Bootstrap</div>
+                                <div class="col-2 titre_skill">React</div>
+                                <div class="col-2 titre_skill">Symfony</div>
+                                <div class="col-2 titre_skill">MySQL</div>
+                                <div class="col-2 titre_skill">Xampp</div>
+                                <div class="col-2 titre_skill">GitHub</div>
+                            </div>
+                            <div class="row icones_skills">
+                                <div class="col-2 icone_skill"><img src="./images/icons/icons8-bootstrap.svg"
+                                        alt="icone_bootstrap"></div>
+                                <div class="col-2 icone_skill"><img src="./images/icons/icons8-react-native.svg"
+                                        alt="icone_react"></div>
+                                <div class="col-2 icone_skill"><img src="./images/icons/icons8-symfony.svg"
+                                        alt="icone_symfony"></div>
+                                <div class="col-2 icone_skill"><img src="./images/icons/icons8-mysql.svg" alt="icone_mysql">
+                                </div>
+                                <div class="col-2 icone_skill"><img src="./images/icons/xampp.svg" alt="icone_xampp"
+                                        class="logo_xampp"></div>
+                                <div class="col-2 icone_skill"><img src="./images/icons/icons8-github.svg"
+                                        alt="icone_github"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 espacements_cols_icones_skills"></div>
+
+                        <div class="col-lg-5 ">
+                            <div class="rows ">
+                                <div class="row mb-1">
+                                    <div class="col-lg-2 col-md-3 col_check"><i class="bi bi-check2-circle"></i></div>
+                                    <div class="col-lg-10 col-md-9 skill_pro">Maquetter une application</div>
+                                </div>
+                                <div class="row mb-1">
+                                    <div class="col-lg-2 col-md-3 col_check"><i class="bi bi-check2-circle"></i></div>
+                                    <div class="col-lg-10 col-md-9 skill_pro">Réaliser une interface utilisateur web
+                                        statique et
+                                        adaptable</div>
+                                </div>
+                                <div class="row mb-1">
+                                    <div class="col-lg-2 col-md-3 col_check"><i class="bi bi-check2-circle"></i></div>
+                                    <div class="col-lg-10 col-md-9 skill_pro">Développer une interface utilisateur web
+                                        dynamique
+                                    </div>
+                                </div>
+                                <div class="row mb-1">
+                                    <div class="col-lg-2 col-md-3 col_check"><i class="bi bi-check2-circle"></i></div>
+                                    <div class="col-lg-10 col-md-9 skill_pro">Réaliser une interface utilisateur avec
+                                        une
+                                        solution de
+                                        gestion de contenu ou e-commerce</div>
+                                </div>
+                                <div class="row mb-1">
+                                    <div class="col-lg-2 col-md-3 col_check"><i class="bi bi-check2-circle"></i></div>
+                                    <div class="col-lg-10 col-md-9 skill_pro">Créer une base de données</div>
+                                </div>
+                                <div class="row mb-1">
+                                    <div class="col-lg-2 col-md-3 col_check"><i class="bi bi-check2-circle"></i></div>
+                                    <div class="col-lg-10 col-md-9 skill_pro">Développer les composants d’accès aux
+                                        données</div>
+                                </div>
+                                <div class="row mb-1">
+                                    <div class="col-lg-2 col-md-3 col_check"><i class="bi bi-check2-circle"></i></div>
+                                    <div class="col-lg-10 col-md-9 skill_pro">Développer la partie back-end d’une
+                                        application web
+                                        ou
+                                        web mobile</div>
+                                </div>
+                                <div class="row mb-1">
+                                    <div class="col-lg-2 col-md-3 col_check"><i class="bi bi-check2-circle"></i></div>
+                                    <div class="col-lg-10 col-md-9 skill_pro">Elaborer et mettre en œuvre des composants
+                                        dans une
+                                        application de gestion de contenu ou e-commerce</div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- BLOC3: XP Pro -->
+
+                <div class="container-fluid container_BLOC3 d-flex flex-wrap flex-md-wrap">
+
+                    <div class="row d-flex mb-2">
+                        <h3 id="xp_pro">Experiences professionnelles</h3>
+                    </div>
+                    <div class="row d-flex container-fluid container_all_xp">
+
+                        <!-- xp 1 -->
+
+                        <div class="container_1xp container-lg d-flex mt-2 mb-5">
+                            <div class="row">
+                                <div class="col-lg-1 "><i class="bi bi-briefcase-fill"></i></div>
+                                <div class="col-lg-1 "></div>
+                                <div class="col-lg-10 ">
+                                    <p class="intitule_xp"><span class="titre_poste_xp">Employé polyvalent</span><span
+                                            class=nom_employeur_xp> ACI INSERSOL (ex-Jardins de la
+                                            ville)</span><br><span class="duree_emploi_xp">de
+                                            juin 2022 jusqu'à septembre 2024 </span></p>
+
+                                </div>
+                            </div>
+                            <div class="row description_taches_xp">
+                                J'ai postulé spontanément chez INSERSOL via la plateforme de l’inclusion et j'ai
+                                rapidement été convoqué pour un entretien, qui s'est soldé par un recrutement. Comme la
+                                plupart des employés de l’ACI, j'ai d'abord occupé un poste d’employé polyvalent en tant
+                                qu'Agent d’entretien des espaces verts et Agent de voirie de juin à décembre 2022, avec
+                                une charge horaire de 24 heures par semaine. À partir de janvier 2023, ma familiarité
+                                avec les outils informatiques m'a valu d'être affecté à des tâches de bureautique en
+                                soutien des encadrants techniques, en plus de mes responsabilités sur le terrain. Bien
+                                que mon intitulé de poste soit resté le même, je ne passais plus que la moitié de la
+                                semaine sur le terrain et l'autre moitié au bureau, avec un contrat étendu à 28 heures.
+                                En avril 2023 je ne travaillais plus sur le terrain. J'ai assuré l'accueil au sein de
+                                l'association en remplacement de l'agente habituelle qui était en arrêt en arrêt longue
+                                durée. Mon contrat est passé à 35 heures par semaine et je m’occupais de tâches
+                                administratives. Après la fin de la période de remplacement mi-mai 2023 jusqu’à début
+                                juin où j’ai pris mes congés, j'ai conservé mon contrat à temps plein de 35 heures,
+                                alternant entre de la bureautique principalement et de l’accueil sur les périodes où
+                                l’agente d’accueil n’était pas en poste. Ma formation s'est achevée en mars 2024 et je
+                                suis de retour à l’ACI jusqu'en septembre 2024, continuant à jongler entre les tâches
+                                bureautiques, l'accueil et le développement de mon projet de site de réservation en
+                                ligne.
+                            </div>
+                        </div>
+
+                        <!-- xp 2 -->
+
+                        <!-- xp 3 -->
+
+                        <div class="container_1xp container-lg d-flex mt-2">
+                            <div class="row">
+                                <div class="col-lg-1 "><i class="bi bi-briefcase-fill"></i></div>
+                                <div class="col-lg-1 "></div>
+                                <div class="col-lg-10 ">
+                                    <p class="intitule_xp"><span class="titre_poste_xp">Téléconseiller</span><span
+                                            class=nom_employeur_xp> CAPDUNE (La Poste Mobile)</span><br><span
+                                            class="duree_emploi_xp">du
+                                            05 mai au 10 novembre 2018</span></p>
+
+                                </div>
+                            </div>
+                            <div class="row description_taches_xp">
+                                J’ai candidaté après avoir vu une offre d’emploi sur le site du Pôle Emploi. L’entretien
+                                d’embauche a eu lieu quelques semaines plus tard et j’ai signé un contrat de 8 mois. Je
+                                n’ai pas été lâché sur le terrain immédiatement, j’ai d’abords eu plusieurs semaines de
+                                formation avant. Mon rôle était de recevoir les appels entrants des clients, les
+                                renseigner si possible et si nécessaire, les rediriger vers des collègues plus
+                                expérimentés ou les services appropriés. Nous étions aussi incités à essayer de vendre
+                                les box LaPoste ou les smartphones récents avec des primes à la clé. Les 1ers mois se
+                                sont bien passés, mais plus le temps avançait, moins je supportais l’environnement, le
+                                fait d’être constamment au téléphone, les exigences de la direction en termes de
+                                rendements et d’efficacité, le type d’interactions que nous avions avec les clients.
+                                J’ai fini par démissionner en novembre 2018.
+                            </div>
+                        </div>
+
+                        <!-- xp 4 -->
+
+
+
+                    </div>
+                </div>
+
+                <!-- BLOC4: Formations -->
+
+                <div class="container-fluid container_BLOC4 d-flex flex-wrap flex-md-wrap">
+
+                    <div class="row d-flex mb-2">
+                        <h3 id="formations">Formations</h3>
+                    </div>
+                    <div class="row d-flex container-fluid container_all_xp">
+
+                        <!-- formation 1 -->
+
+                        <div class="container_1xp container-lg d-flex mt-2 mb-5">
+                            <div class="row">
+                                <div class="col-lg-1"><i class="bi bi-briefcase-fill"></i></div>
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-10">
+                                    <p class="intitule_xp"><span class="titre_poste_xp">Titre pro Développeur Web et Web
+                                            Mobile (titre obtenu)</span><span class=nom_employeur_xp> AFPA
+                                            Roubaix</span><br><span class="duree_emploi_xp">du
+                                            01 juillet 2023 au 14 mars 2024</span></p>
+
+                                </div>
+                            </div>
+                            <div class="row description_taches_xp">
+                                C’est l’aboutissement d’un projet de formation que j’ai élaboré avec l’appuie de la
+                                conseillère en insertion d’INSERSOL, Mme Khadidja BOUHADIBA. Mon projet a été jugé
+                                viable par l’ACI et j’ai pu obtenir un financement de la formation par l’OPCO de
+                                l’entreprise.
+                                J’ai commencé cette formation avec 0 expérience en codage. J’ai appris à planifier la
+                                création d’un site, réaliser des wireframes et des maquettes graphiques avant de passer
+                                à la phase de développement. Je sais comment développer des sites web statiques et
+                                dynamiques, stocker des données de manières persistante, travailler en équipe sur des
+                                projets plus conséquents.
+
+                            </div>
+                        </div>
+
+                        <!-- formation 2 -->
+
+                        <div class="container_1xp container-lg d-flex mt-2 mb-5">
+                            <div class="row">
+                                <div class="col-lg-1"><i class="bi bi-briefcase-fill"></i></div>
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-10">
+                                    <p class="intitule_xp"><span class="titre_poste_xp">Titre pro Electricien
+                                            d'Installation et de Maintenance des Systèmes Automatisés (titre
+                                            obtenu)</span><span class=nom_employeur_xp> AFPA
+                                            Dunkerque</span><br><span class="duree_emploi_xp">de
+                                            2020 à 2021</span></p>
+
+                                </div>
+                            </div>
+                            <div class="row description_taches_xp">
+                                Après mon passage chez CAPDUNE en tant que Téléconseiller, je suis devenu persuadé que
+                                mon avenir se trouvait dans un emploi manuel. Je cherchais à me former à un emploi
+                                utile, concrêt, avec des opportunités de progression professionnelle et une interaction
+                                minimale avec une clientèle. J’ai choisi la formation d’électricien par curiosité et en
+                                me disant qu’avec le temps et l’expérience rien ne m’empêcherait de viser une formation
+                                plus haute, pourquoi pas dans l’ingénierie ?
+                                J’ai apprécié ma formation à l’AFPA Dunkerque. Le groupe de stagiaires avait un bon
+                                esprit d’équipe et était globalement motivé. Les intervenants étaient disponibles,
+                                pédagogues et candides quant aux réalités du travail sur le terrain. Cependant, je me
+                                suis rendu compte au fil du temps que ces réalités du travail sur le terrain justement
+                                ne m’attiraient pas tant que ça. Bien que j’ai obtenu mon titre je n’ai jamais candidaté
+                                pour un poste d’électricien et je ne le ferais probablement jamais.
+
+
+                            </div>
+                        </div>
+
+                        <!-- formation 3 -->
+
+                        <div class="container_1xp container-lg d-flex mt-2 mb-5">
+                            <div class="row">
+                                <div class="col-lg-1"><i class="bi bi-briefcase-fill"></i></div>
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-10">
+                                    <p class="intitule_xp"><span class="titre_poste_xp">ULCO Master 1 Logistique
+                                            (Abandon)</span><span class=nom_employeur_xp> AFPA
+                                            Dunkerque</span><br><span class="duree_emploi_xp">de
+                                            2018 à 2019</span></p>
+
+                                </div>
+                            </div>
+                            <div class="row description_taches_xp">
+                                A cause de mon passage par enjambement en 2e année de prépa quand j'étais étudiant à
+                                l'ISCID-CO Dunkerque, et donc un défaut de stage
+                                validé, mon transfert en Master 1 Logistique à l'ULCO après mon Bachelor Commerce
+                                International en tant qu'étudiant Erasmus en allemagne à Ludwigshaffen Am Rhein
+                                a été finalement refusé. J'ai envisagé de me réinscrire en Bachelor à l'ISCID-CO pour au
+                                moins
+                                valider le niveau licence mais je n'avais plus les moyens financiers
+                                pour le faire.
+
+
+                            </div>
+                        </div>
+
+                        <!-- formation 4 -->
+
+                        <div class="container_1xp container-lg d-flex mt-2">
+                            <div class="row">
+                                <div class="col-lg-1"><i class="bi bi-briefcase-fill"></i></div>
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-10">
+                                    <p class="intitule_xp"><span class="titre_poste_xp">Etudiant Erasmus Bachelor
+                                            Commerce International</span><span class=nom_employeur_xp> Université
+                                            Ludwigshaffen Am Rhein (Allemagne)</span><br><span
+                                            class="duree_emploi_xp">de
+                                            2017 à 2018</span></p>
+
+                                </div>
+                            </div>
+                            <div class="row description_taches_xp">
+                                Dans le cadre de la 3e année à l'ISCID-CO (niveau licence), nous avions la possibilité
+                                d'étudier à
+                                l'étranger auprès d'une université partenaire avec une aide financière de l'état (bourse
+                                Bleriot). j'ai
+                                choisi de le faire en Allemagne. Mon
+                                raisonnement était que j'avais déjà un très bon niveau en anglais et qu'il serait plus
+                                judicieux de renforcer ma 2e langue. Au final j'ai consolidé mes connaissances en
+                                anglais mais assez peu celles en allemand.
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- BLOC5: Projet en cours -->
+
+                <div class="container-fluid container_BLOC5 d-flex flex-wrap flex-md-wrap">
+
+                    <div class="row d-flex mb-3">
+                        <h3 id="projet_en_cours">Projet en cours</h3>
+                    </div>
+                    <div class="row d-flex container-fluid container_projet_en_cours flex-wrap flex-md-wrap">
+                        <div class="col-lg-5"><img src="./images/homepage.svg" alt="image_maquette_projet"></div>
+                        <div class="col-lg-2 "></div>
+                        <div class="col-lg-5">
+                            <div class="row langages_projet_en_cours">
+                                <p class="outils mt-sm-1">Frontend: HTML \ CSS \ JAVASCRIPT \ REACT</p>
+                                <p class="outils">Backend: PHP \ Symfony \ Mysql</p>
+                            </div>
+                            <div class="row description_projet_en_cours">
+                                <p class="nom_projet_en_cours">Site de réservation Biclou</p>
+                                <p> Durant mon stage en entreprise du 01 janvier au 08 mars 2024, j'ai travaillé sur un
+                                    projet de création d'un site de réservation pour un atelier de réparation de vélos
+                                    participatif et solidaire, le Biclou à Hellemmes, qui est un pôle de l’association
+                                    Insersol. Le projet visait à automatiser le processus de réservations en retirant
+                                    l'intervention obligatoire des employés (ou bénévoles) du Biclou, améliorant ainsi
+                                    l'expérience pour ces derniers et pour les utilisateurs.
+                                    Bien que je n'ai pas pu finir le site avant la fin de mon stage, je suis
+                                    actuellement employé chez Insersol jusqu'en septembre 2024. En plus des tâches qui
+                                    me sont demandées en tant qu'employé polyvalent, je continue en parallèle à
+                                    travailler sur le développement du site. Pour le moderniser et le rendre plus
+                                    professionnel, je suis en train de réécrire le code pour incorporer l’utilisation de
+                                    React et Symfony.
+
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Bloc 6: mes centres d'intérêt -->
+
+                <div class="container-fluid container_BLOC6 d-flex flex-wrap flex-md-wrap" id="hobbies">
+
+                    <div class="row d-flex mb-3">
+                        <h3 id="projet_en_cours">Centres d'intérêt</h3>
+                    </div>
+                    <div class="row d-flex container-fluid container_projet_en_cours flex-wrap flex-md-wrap">
+
+                        <div class="col-lg-1"></div>
+
+                        <div class="col-lg-8 ">
+
+                            <ul class="liste_centre_interet">
+
+                                <li class="hobby">Actualité</li>
+                                <li class="hobby">Bande dessiné - films d'animation</li>
+                                <li class="hobby">Fitness et bien être</li>
+                                <li class="hobby">Informatique - Programmation</li>
+                                <li class="hobby"> Jeux Vidéos</li>
+                                <li class="hobby">Réseaux sociaux (Youtube, Discord)</li>
+
+                            </ul>
+                        </div>
+
+
+                        <div class="col-lg-3"></div>
+
+                    </div>
+                </div>
+
+
+            </main>
+
+            <!-- Fin du main -->
+
+            <footer class="mon_footer container-fluid d-flex" id="mon_footer">
+
+                <div class="subcontainer_footer container-sm d-flex">
+                    <div class="row mon_git_footer mb-2">
+                        <h3>Mon GitHub</h3>
+                    </div>
+                    <div class="row social_medias_footer">
+
+                        <div class="col-lg-6 icone_social_medias_footer"><i class="bi bi-github h1"
+                                title="WIP, sera disponible prochainement"></i></div>
+                    </div>
+                </div>
+
+            </footer>
+        </div>
+        <!-- Colonne vide droite-->
+        <div class="col-1 colonne_vide_d"></div>
+</body>
+
+</div>
+
+</html>

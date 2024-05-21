@@ -1,0 +1,301 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+html {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 350vh;
+  margin: 0;
+  padding: 0;
+}
+
+html h1 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+html h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+html h3 {
+  font-weight: bold;
+}
+
+.icone_haut_de_page:hover{
+
+  color: white; 
+}
+
+.nav-item .nav-link:hover {
+  color: white;
+}
+
+.navbarshadow {
+  border-bottom: 1px solid rgb(195, 191, 191);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.row_body {
+  min-height: 100vh;
+}
+
+.colonne_vide_g,
+.colonne_vide_d {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+.mon_header,
+.container_BLOC1,
+.container_BLOC2,
+.container_BLOC3,
+.container_BLOC4,
+.container_BLOC5,
+.container_BLOC6,
+.mon_footer {
+  margin-bottom: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar,
+.container_BLOC1,
+.container_BLOC2,
+.container_BLOC3,
+.container_BLOC4,
+.container_BLOC5,
+.container_BLOC6,
+.mon_footer {
+  background-color: antiquewhite;
+}
+
+/* intro */
+
+.container_intro {
+  height: 400px;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro_background {
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  position: absolute;
+  z-index: -10;
+  filter: blur(2px);
+}
+
+.id_photo_container img {
+  width: auto;
+  height: 150px;
+  border-radius: 50px;
+  border: 4px solid white;
+}
+
+.myname_container {
+  color: white;
+  font-weight: 800;
+}
+
+.myjob_container {
+  color: white;
+  font-weight: 600;
+}
+
+/* icones svg */
+
+.icone_skill img {
+  max-width: 100%;
+}
+
+/* A propos*/
+
+.container_BLOC1 {
+  min-height: 400px;
+  width: auto;
+  /* background-color: rgba(31, 240, 240, 0.316); */
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.container_apropos .row {
+  border: 1px solid purple;
+  min-height: 10px;
+  width: 100%;
+}
+
+.col3_BLOC1 {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Compétences */
+
+.container_BLOC2 {
+  min-height: 400px;
+  width: auto;
+  /* background-color: rgba(101, 246, 17, 0.316); */
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.titre_icones_skills > * {
+  display: flex;
+  justify-content: center;
+}
+
+.titre_icones_skills {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.icones_skills > * {
+  display: flex;
+  justify-content: center;
+}
+
+.logo_xampp {
+  width: 40px;
+  height: auto;
+}
+
+.row_icones_espacement {
+  min-height: 20px;
+}
+
+.espacements_cols_icones_skills {
+  min-height: 40px;
+}
+
+.skill_pro {
+  font-size: 14px;
+}
+
+.col_check {
+  display: flex;
+  justify-content: center;
+  color: green;
+  font-weight: bold;
+}
+
+/* Experiences professionnelles*/
+
+.container_BLOC3 {
+  min-height: 50px;
+  width: auto;
+  /* background-color: rgba(240, 31, 230, 0.316); */
+}
+
+.container_all_xp {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.container_1xp {
+  flex-direction: column;
+}
+
+.titre_poste_xp {
+  font-weight: Bold;
+  font-size: 16px;
+}
+
+.nom_employeur_xp {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.duree_emploi_xp {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.description_taches_xp {
+  font-size: 14px;
+}
+
+/* Formations */
+
+/* Projet en cours */ /* BLOC5*/
+
+.container_projet_en_cours img {
+  width: 100%;
+  height: auto;
+}
+
+.langages_projet_en_cours .outils {
+  color: rgb(0, 174, 255);
+  font-size: 12px;
+}
+
+.nom_projet_en_cours {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.description_projet_en_cours {
+  font-size: 14px;
+}
+
+/* Footer */
+
+.mon_footer {
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+
+.subcontainer_footer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.mon_git_footer {
+  font-weight: bold;
+}
+
+.icone_social_medias_footer i:hover{
+
+  color: white;
+}
+
+
+
+
+  /*****************************************************************************************************************************/
+ /********************************************************** Media querries ***************************************************/
+/*****************************************************************************************************************************/
+
+
+
+/******* Viewport <= 500 px en width *******/
+
+
+
+@media(max-width: 500px)
+{
+
+
+.myjob_container{
+
+  display: flex;
+  text-align: center;
+}
+
+
+.titre_icones_skills > * {
+font-size: 12px;
+font-weight: bold;
+}
+
+}
